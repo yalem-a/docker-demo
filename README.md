@@ -25,5 +25,5 @@ docker run -p8887:8080 spring-boot-demo:v1
 
 ### Steps for installing postgresql
    ```
-docker run --name postgresql -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin123 -p 5432:5432 -v C:\Safaricom\Safaricom_2023\Projects\spring-security\security\postgres-db-data:/var/lib/postgresql/data -d postgres
+docker run --name postgresql -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin123 -p 5432:5432 -v C:\mounthPath\postgres-db-data:/var/lib/postgresql/data -d postgres
    ```
